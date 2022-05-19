@@ -4,6 +4,12 @@ body {
     background-color: bisque;
 }
 
+/* COMMON */
+
+img {
+    width: 100%;
+    max-width: 350px;
+}
 
 /* HEADER */
 
@@ -45,6 +51,50 @@ header {
     text-decoration: none;
     color: inherit;
 }
+
+/* MAIN */
+
+.ms_green_section {
+    color: white;
+    padding: 2rem 0;
+    background-color: #19bc9c;
+}
+
+.ms_small_container {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ms_small_container h1 {
+    padding-top: 0.5rem;
+}
+
+.ms_img_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ms_star_effect {
+    padding: 0.8rem 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.ms_star_effect .row {
+    align-items: center;
+    text-align: -webkit-center;
+}
+
+.ms_white_dash {
+    background-color: white;
+    width: 80px;
+    height: 4px;
+}
+
+/* INTRO SECTION */
 
 @media all and (max-width: 768px) {
 
