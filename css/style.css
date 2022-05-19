@@ -129,7 +129,7 @@ header {
 /* ABOUT SECTION */
 
 .ms_about_section .ms_small_container {
-    width: 40%;
+    max-width: 800px;
     text-align: left;
 }
 
@@ -159,6 +159,22 @@ header {
     margin-top: 4rem;
 }
 
+/* FOOTER */
+
+.ms_top_footer {
+    background-color: #3b536d;
+    color: white;
+    padding: 2rem 0;
+}
+
+.ms_bottom_footer {
+    background-color: #2c3e4f;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
 
 /********
 RESPONSIVE
@@ -173,6 +189,10 @@ RESPONSIVE
     
     .ms_small_container {
         width: 80%;
+    }
+
+    .ms_top_footer {
+        text-align: center;
     }
 
 }
