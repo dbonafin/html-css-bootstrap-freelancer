@@ -61,7 +61,7 @@ header {
 }
 
 .ms_small_container {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     text-transform: uppercase;
     text-align: center;
@@ -126,9 +126,34 @@ header {
     padding: 2rem 0;
 }
 
+/* ABOUT SECTION */
+
+.ms_about_section .ms_small_container {
+    width: 40%;
+    text-align: left;
+}
+
+.ms_about_section h2, a {
+    text-align: center;
+}
+
+.ms_download_btn {
+    margin: 2rem 0;
+    text-align: center;
+}
+.ms_download_btn a {
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+
 /********
 RESPONSIVE
  ********/
+ 
 
 @media all and (max-width: 992px) {
 
