@@ -149,11 +149,21 @@ header {
 }
 
 
+/* CONTACT SECTION */
+
+.ms_contact_section {
+    padding: 2rem 0;
+}
+
+.ms_top_margin {
+    margin-top: 4rem;
+}
+
 
 /********
 RESPONSIVE
  ********/
- 
+
 
 @media all and (max-width: 992px) {
 
