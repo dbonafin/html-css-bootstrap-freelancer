@@ -63,12 +63,13 @@
 
             </div>
         </div>
+
     </header>
 
     <main>
 
         <!-- INTRO SECTION -->
-        <section class="ms_green_section">
+        <section class="ms_green_section ms_intro">
             <div class="ms_small_container">
                 <div class="container-fluid">
 
@@ -157,39 +158,39 @@
                     <!-- PORTFOLIO CONTENT -->
 
                     <div class="row gy-3">
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/cabin.png" alt="portfolio image">
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/cake.png" alt="portfolio image">
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/circus.png" alt="portfolio image">
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/game.png" alt="portfolio image">
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/safe.png" alt="portfolio image">
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-6 col-xl-4">
+                        <div class="col col-12 col-md-6 col-xl-4">
                             <div class="ms_card_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque ullam porro modi est sit ducimus fuga nulla quis voluptatibus molestias magni unde similique ipsa voluptas placeat molestiae eos corporis!
+                                <img src="img/submarine.png" alt="portfolio image">
                             </div>
                         </div>
 
@@ -210,7 +211,7 @@
 
 
                         <div class="col col-12">
-                            <h2>about</h2>
+                            <h2>ABOUT</h2>
                         </div>
 
                         <div class="col col-12">
@@ -229,25 +230,35 @@
                             </div>
                         </div>
 
-                        <!-- BOTTOM PART OF THE CONTACT SECTION -->
+                        <!-- BOTTOM PART OF THE ABOUT SECTION -->
 
                         <div class="col col-12">
 
                             <div class="row gy-5">
                                 <div class="col col-12 col-lg-6">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nemo sunt dolores unde hic magnam sapiente obcaecati deleniti suscipit iure impedit, necessitatibus rerum ad aliquam at id vel. Commodi, mollitia.
+                                    <p>
+                                        Freelancer is a free bootstrap theme created by Start Bootstrap.
+                                        The download includes the complete source files including HTML, CSS and JavaScrpit
+                                        as well as optional LESS stylesheets for easy customization.
+                                    </p>
                                 </div>
 
                                 <div class="col col-12 col-lg-6">
-                                    Lorem ipsum dolor, adipisicing elit. Molestias nemo sunt dolores unde hic magnam sapiente obcaecati deleniti suscipit iure impedit, necessitatibus rerum ad aliquam at id vel. Commodi, mollitia.
+                                    <p>
+                                        Whether you're a student looking to showcase your work, 
+                                        a professional looking to attract clients, or a graphic artist looking to share 
+                                        your projects, this template is the perfect starting point.
+                                    </p>
                                 </div>
                             </div>
 
                         </div>
 
                         <div class="col col-12">
-                            <div class="ms_download_btn">
-                                <a href="#">button</a>
+                            <div class="ms_download_button">
+                                <button type="submit" class="btn ms_download">
+                                    Download
+                                </button>
                             </div>
                         </div>
 
@@ -286,42 +297,30 @@
                 
                     
                     <!-- BOTTOM PART OF THE CONTACT SECTION -->
-
-                    <div class="row gy-3">
-                        <div class="col col-12">
-                            <div class="ms_card_content">
-                                name
-                            </div>
+          
+                    <form>
+                        <div class="mb-3">
+                             <label for="name" class="form-label visually-hidden">Name</label>
+                             <input type="text" class="form-control" placeholder="Name" id="name">
                         </div>
 
-                        <div class="col col-12">
-                            <div class="ms_card_content">
-                                email address
-                            </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label visually-hidden">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" id="email">
+                       </div>
+
+                        <div class="mb-3">
+                             <label for="password" class="form-label visually-hidden">Password</label>
+                             <input type="password" class="form-control" placeholder="Password" id="password">
                         </div>
 
-                        <div class="col col-12">
-                            <div class="ms_card_content">
-                                phone number
-                            </div>
+                        <div class="mb-3 form-check">
+                            <label for="message" class="form-label visually-hidden">Example textarea</label>
+                            <textarea class="form-control" placeholder="Message" id="message" rows="3"></textarea>
                         </div>
 
-                        <div class="col col-12">
-                            <div class="ms_card_content">
-                                message
-                            </div>
-                        </div>
-
-                        <div class="col col-12">
-                            <div class="ms_card_content ms_top_margin">
-
-                                <div>
-                                    <a href="#">send button</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                        <button type="submit" class="btn ms_btn_green">Send</button>
+                      </form>
                 </div>
             </div>
 
@@ -332,7 +331,7 @@
     <footer>
 
         <!-- TOP PART OF THE FOOTER -->
-        <section class="ms_top_footer">
+        <div class="ms_top_footer">
             <div class="ms_large_container">
 
                 <div class="container-fluid">
@@ -340,27 +339,64 @@
                     <div class="row gy-5">
                         <div class="col col-12 col-lg-4">
                             <h3>LOCATION</h3>
-                            Lorem ipsum dolor sit, deleniti facilis quisquam neque totam aspernatur omnis eaque recusandae enim unde aliquam repellendus blanditiis atque, earum dolores corrupti laboriosam velit nobis?    
+                            <address>
+                                2215 John Daniel Drive Clark, MO 54243
+                            </address>
                         </div>
 
                         <div class="col col-12 col-lg-4">
-                            <h3>AROUND THE WEB</h3>
-                            Lorem ipsum, dolor sit incidunt ipsa quaerat aliquid commodi voluptates neque quo tenetur laborum atque nostrum repellat odit, quisquam laboriosam totam odio labore a qui.
+
+                            <div class="ms_icons_area">
+
+                                <h3>AROUND THE WEB</h3>
+                                
+                                <!-- FARE LA LISTA CON GLI ELEMENTI DENTRO -->
+                                
+                                <div class="ms_icon_box">
+                                    <a class="ms_footer_icon" href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                                
+                                <div class="ms_icon_box">
+                                    <a class="ms_footer_icon" href="#">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                            
+                                <div class="ms_icon_box">
+                                    <a class="ms_footer_icon" href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+    
+                                <div class="ms_icon_box">
+                                    <a class="ms_footer_icon" href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                          
                         </div>
 
                         <div class="col col-12 col-lg-4">
                             <h3>ABOUT FREELANCER</h3>
-                            Consectetur adipisicing elit. Distinctio magni quis veniam eaque facilis deserunt quod! Soluta quidem animi aliquam cupiditate eveniet ducimus cum aliquid dolore eaque odit, incidunt adipisci!
+
+                            <p>
+                                Freelance is a free to use, open source Bootstrap theme
+                                created by <span class="ms_green-text">Start Bootstrap</span>
+                            </p>
                         </div>
 
                     </div>
                 </div>
             </div>
             
-        </section>
+        </div>
 
         <!-- BOTTOM PART OF THE FOOTER -->
-        <section class="ms_bottom_footer">
+        <div class="ms_bottom_footer">
             <div class="ms_large_container">
 
                 <div>
@@ -368,9 +404,7 @@
                 </div>
             </div>
 
-        </section>
-
-    
+        </div>
 
     </footer>
    
